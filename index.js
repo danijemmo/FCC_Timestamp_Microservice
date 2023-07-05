@@ -41,7 +41,7 @@ app.get("/api", (req, res) => {
 
 
 // listen for requests :)
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 app.listen(port, () => {
   console.log(`Your app is listening on port ${port}`);
 });
